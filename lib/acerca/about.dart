@@ -19,7 +19,7 @@ class _AboutState extends State<About> {
     final Email email = Email(
       body: _bodyController.text,
       subject: _subjectController.text,
-      recipients: ['charlie24000@gmail.com'],
+      recipients: ['is709304@iteso.mx'],
       isHTML: false,
     );
 
@@ -42,6 +42,7 @@ class _AboutState extends State<About> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key:_scaffoldKey,
       appBar: AppBar(
         title: Text("Contacto"),
       ),
